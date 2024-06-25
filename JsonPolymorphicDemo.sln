@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B52C506-A8FA-4A1B-9CEA-8CA9CD7D2932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "src\App\App.csproj", "{B4187B1E-12FD-44EB-9252-8571B525D7C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{703428A9-121A-4DDE-A849-E2C54D824D6D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8BCBD2CA-03E8-43EB-9BB1-77C5F1CB0D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Tests\Tests.csproj", "{7ED30432-6A1B-45AF-B383-68DEF8708E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4187B1E-12FD-44EB-9252-8571B525D7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4187B1E-12FD-44EB-9252-8571B525D7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4187B1E-12FD-44EB-9252-8571B525D7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4187B1E-12FD-44EB-9252-8571B525D7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED30432-6A1B-45AF-B383-68DEF8708E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED30432-6A1B-45AF-B383-68DEF8708E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED30432-6A1B-45AF-B383-68DEF8708E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED30432-6A1B-45AF-B383-68DEF8708E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4187B1E-12FD-44EB-9252-8571B525D7C0} = {1B52C506-A8FA-4A1B-9CEA-8CA9CD7D2932}
+		{7ED30432-6A1B-45AF-B383-68DEF8708E62} = {8BCBD2CA-03E8-43EB-9BB1-77C5F1CB0D4F}
+	EndGlobalSection
+EndGlobal
