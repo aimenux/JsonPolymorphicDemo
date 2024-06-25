@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{703428A9
 		Directory.Build.props = Directory.Build.props
 		global.json = global.json
 		README.md = README.md
+		.github\workflows\ci.yml = .github\workflows\ci.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8BCBD2CA-03E8-43EB-9BB1-77C5F1CB0D4F}"

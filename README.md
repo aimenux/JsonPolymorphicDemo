@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/JsonPolymorphicDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/JsonPolymorphicDemo/actions/workflows/ci.yml)
+
 # JsonPolymorphicDemo
 ```
 Serialization and deserialization of polymorphic types
